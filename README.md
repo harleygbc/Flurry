@@ -13,16 +13,23 @@ Use Transact to add some Predicates
 
 
 ## Query
-Selecting Query>FlureeQL   
+Selecting Query>FlureeQL  
+Example Query to find Amy Nguyen  
 "[  
   {  
     "_id": "_user",  
     "username": "Amy Nguyen"  
   }  
-]"      
-Query found associated Flakes for Amy Nguyen
+]" 
+
+
 
 ## Data Add/update/delete
+Example Query to update a record using a two-tuple with a unique predicate  
+[  
+  {  
+    "_id": ["person/handle", "anguyen"],  
+    "age": 37  
+  }  
+]  
 
-
-Amy Nguyen
