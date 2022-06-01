@@ -25,7 +25,7 @@ Example Query to find Amy Nguyen
 
 
 ## Data Add/update/delete
-Example Query to update a record using a two-tuple with a unique predicate  
+Example to update a record using a two-tuple with a unique predicate  
 [  
   {  
     "_id": ["person/handle", "anguyen"],  
